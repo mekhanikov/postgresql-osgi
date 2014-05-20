@@ -1,9 +1,10 @@
 -buildpath:  \
+    biz.aQute.bnd.annotation,\
 	osgi.core,\
 	osgi.cmpn,\
-	osgi.jdbc.managed.aux,\
 	cnf.run.base,\
-	biz.aQute.bnd.annotation
+	osgi.jdbc.managed.aux
+	
 
 Private-Package:  \
 	org.postgresql.*
