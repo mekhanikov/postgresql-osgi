@@ -13,7 +13,8 @@
 	org.ops4j.pax.jdbc.postgresql,\
 	postgresql-osgi;version=latest,\
 	osgi.jdbc.managed.aux,\
-	org.apache.felix.configadmin
+	org.apache.felix.configadmin,\
+	postgresjdbcdriver;version=latest
 
 
 -runrequires:  \

@@ -5,13 +5,7 @@
 	cnf.run.base,\
 	osgi.jdbc.managed.aux
 	
-
-Private-Package:  \
-	org.postgresql.*
-	
-	
-Include-Resource: lib, {configuration=configuration}
-Bundle-ClassPath: ., postgresql-9.3-1101.jdbc41.jar
+Include-Resource: {configuration=configuration}
 
 Bundle-Version: 0.0.0.${tstamp}
 Private-Package:  \
@@ -19,5 +13,4 @@ Private-Package:  \
 Service-Component:  \
 	*
 Export-Package:  \
-	postgresql, \
-	org.postgresql.*;version=9.3.0
+	postgresql

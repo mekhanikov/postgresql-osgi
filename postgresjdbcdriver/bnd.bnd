@@ -1,0 +1,19 @@
+-buildpath:  \
+	osgi.core,\
+	osgi.cmpn,\
+	biz.aQute.bnd.annotation
+	
+Private-Package:  \
+	org.postgresql.*
+	
+Include-Resource: lib
+Bundle-ClassPath: ., postgresql-9.3-1101.jdbc41.jar
+	
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	postgresjdbcdriver
+Service-Component:  \
+	*
+	
+Export-Package:  \
+	org.postgresql.*;version=9.3.0
