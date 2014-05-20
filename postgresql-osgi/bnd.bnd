@@ -2,8 +2,8 @@
 	osgi.core,\
 	osgi.cmpn,\
 	osgi.jdbc.managed.aux,\
-	biz.aQute.bnd.annotation,\
-	cnf.run.base
+	cnf.run.base,\
+	biz.aQute.bnd.annotation
 
 Private-Package:  \
 	org.postgresql.*
